@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><b>My Personal Details</b></h1>
+
+    <p><b>Name:</b> Varad Raikar</p>
+    <p><i>Course:</i> BCA</p>
+    <p><u>College:</u> XYZ College</p>
+    <p><mark>City:</mark> Pune</p>
+
+</body>
+</html>
