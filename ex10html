@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>POST Method</title>
-</head>
-<body>
+<?php
 
-<form method="POST" action="display.php">
+$str = "Hello World";
 
-    Name:
-    <input type="text" name="name"><br><br>
+echo "<h2>String Manipulation Program</h2>";
 
-    Email:
-    <input type="email" name="email"><br><br>
+echo "Original String: " . $str;
 
-    <input type="submit" value="Submit">
+echo "<br><br>";
 
-</form>
+echo "String Length: " . strlen($str);
 
-</body>
-</html>
+echo "<br><br>";
+
+echo "Reversed String: " . strrev($str);
+
+echo "<br><br>";
+
+echo "Substring: " . substr($str, 0, 5);
+
+?>
